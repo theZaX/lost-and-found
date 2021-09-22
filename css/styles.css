@@ -31,6 +31,11 @@ body {
   max-width: 350px;
   width: 100%;
 }
+.clampedCards {
+  margin: 20px;
+  max-width: 800px;
+  width: 100%;
+}
 
 :root {
   --bs-primary: #002249 !important;
@@ -51,3 +56,12 @@ body {
 /* .crispLink {
   color: #002249;
 } */
+
+.accentMark {
+  height: 5px;
+  width: 60px;
+}
+
+.toolbarSpacer {
+  height: 56px;
+}

@@ -14,7 +14,9 @@
     <title>Found.</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bareToolbar">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark bareToolbar"
+    >
       <a class="navbar-brand" href="/">
         <div class="flexRowCenter">
           <img style="width: 200px" src="/images/logo.svg" alt="" />
@@ -32,6 +34,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
+    <div class="toolbarSpacer"></div>
 
     <div class="wrapper">
       <div class="clampedContainer">
@@ -45,7 +48,10 @@
           <form>
             <div class="row">
               <div class="col-md-12" style="margin-bottom: 20px">
-                <a class="btn btn-lg btn-google btn-block btn-outline" href="#">
+                <a
+                  class="btn btn-lg btn-google btn-block btn-outline"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                >
                   <div
                     class="row"
                     style="justify-content: center; align-items: center"
@@ -79,19 +85,23 @@
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="exampleInputPassword2"
                 placeholder="Confirm Password"
               />
             </div>
 
-            <button type="submit" class="btn btn-primary bg-dark b btn-block">
-              Sign Up
-            </button>
+            <a
+              class="btn btn-primary bg-dark btn-block"
+              href="/dashboard/"
+              role="button"
+              >Sign Up</a
+            >
             <div
               style="display: flex; justify-content: center; margin-top: 20px"
             >
               <div>
-                Already have an account? <a href="" class="crispLink">Login</a>
+                Already have an account?
+                <a href="" class="crispLink">Login</a>
               </div>
             </div>
           </form>
