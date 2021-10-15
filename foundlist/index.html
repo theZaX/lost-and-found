@@ -11,15 +11,15 @@
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Found.</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
         <div class="flexRowCenter">
-          <img style="width: 200px" src="/images/logo.svg" alt="" />
+          <img style="width: 200px" src="../images/logo.svg" alt="" />
         </div>
       </a>
       <button
@@ -55,30 +55,32 @@
     <div class="toolbarSpacer"></div>
 
     <div class="wrapper">
-      <div class="clampedCards row">
+      <div class="clampedCards row" id ='cardTemplate'>
         <h3 class="col-12">Found Things</h3>
         <div class="px-3 col-12">
-          <p>Found Something? Post it <a href="">here</a></p>
+          <p>Found Something? Post it <a href="../dashboard/index.html">here</a></p>
         </div>
 
+    
+<!--      
         <div class="p-2 col-12 col-sm-6">
           <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1521774971864-62e842046145?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
-              class="card-img-top"
-              alt="..."
-              style="height: 150px; object-fit: cover; width: 100%"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Blue Sneakers</h5>
-              <p class="card-text">
-                Found these sneakers outside of the wilk. They are blue and I
-                think they're adidas.
-              </p>
+              <img
+                src="https://images.unsplash.com/photo-1521774971864-62e842046145?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+                class="card-img-top"
+                alt="..."
+                style="height: 150px; object-fit: cover; width: 100%"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blue Sneakers</h5>
+                <p class="card-text">
+                  Found these sneakers outside of the wilk. They are blue and I
+                  think they're adidas.
+                </p>
               <a href="#" class="btn btn-primary">Claim</a>
+              </div>
             </div>
           </div>
-        </div>
         <div class="p-2 col-12 col-sm-6">
           <div class="card">
             <img
@@ -131,7 +133,7 @@
               </p>
               <a href="#" class="btn btn-primary">Claim</a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -160,5 +162,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
